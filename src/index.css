@@ -1,0 +1,38 @@
+
+@font-face {
+  font-family: 'MainFont';
+  src: url('./assets/fonts/EmbolismSpark.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BodyFont';
+  src: url('./assets/fonts/OldNewspaperTypes.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+  --text: #37372B;
+  --bg: #fff;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, #9aa88a 1.5px, transparent 1.5px);
+  background-size: 28px 28px;
+  font-family: 'MainFont', normal;
+}
+

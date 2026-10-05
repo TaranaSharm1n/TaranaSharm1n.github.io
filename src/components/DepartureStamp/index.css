@@ -1,0 +1,21 @@
+.departure-stamp {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 280 / 188;
+  cursor: auto;
+  z-index: 10;
+  
+}
+
+.departure-stamp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.departure-stamp a,
+.departure-stamp img {
+  pointer-events: auto;
+  cursor: pointer;
+}
