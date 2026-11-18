@@ -63,3 +63,20 @@
   width: 14%;
   pointer-events: none;
 }
+
+
+.boarding-pass-instruction {
+  position: absolute;
+  bottom: calc(50% + 145px);
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  width: 90%;
+  text-align: center;
+  color: #62683e;
+  font-family: inherit, bold;
+  font-size: clamp(40px, 2vw, 24px);
+  letter-spacing: 0.08em;
+  pointer-events: none;
+  z-index: 3;
+}

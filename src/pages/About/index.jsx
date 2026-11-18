@@ -228,7 +228,18 @@ function Experience() {
       </motion.div>
 
       <Rows1 />
-      <Link to="/motifs" className="about-cta">
+      <Link
+        to="/"
+        className="about-cta"
+        onClick={() => {
+          setTimeout(() => {
+            document.getElementById("projects")?.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }, 50);
+        }}
+      >
         Curious of my work? →
       </Link>
     </section>

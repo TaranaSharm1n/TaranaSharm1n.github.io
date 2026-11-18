@@ -64,6 +64,10 @@ function BoardingPass({ onTear }) {
         transition={{ duration: 0.7, ease: "easeOut" }}
       />
 
+      <p className="boarding-pass-instruction">
+      Drag side stub to tear
+      </p>
+    
       <motion.div
         className="pass-pieces"
         animate={
